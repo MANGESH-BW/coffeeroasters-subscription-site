@@ -1,0 +1,409 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+  cursor: url(/coffeeroasters-subscription-site/Images/Pointer.png), pointer;
+}
+.body {
+  background-color: #f2f2f2;
+}
+.container {
+  display: block;
+  padding: 24px 32px;
+  /* position: absolute; */
+  /* width: 1280px;
+  height: 600px; */
+  /* background-color: blue; */
+  /* left: 30px; */
+}
+
+.nav-bar {
+  /* width: 1233px; */
+
+  /* height: 18px; */
+  /* line-height: 75px; */
+  padding: 16px;
+}
+
+.nav-bar ul {
+  float: right;
+  /* margin-right: 60px; */
+  /* padding: 23px; */
+}
+.nav-bar li {
+  display: inline-block;
+  /* margin: 0px 8px;
+  line-height: 15px; */
+}
+
+.logo {
+  width: 140.21px;
+  /* height: 16.62px; */
+  /* left: 46.72px;
+  top: 32.31px; */
+}
+.nav-bar ul li a {
+  /* height: 15px;
+  left: 56.89%;
+  right: 0.35%;
+  top: calc(50% - 15px / 2); */
+
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+
+  color: #83888f;
+}
+.image {
+  position: relative;
+}
+.image img {
+  width: 100%;
+  border-radius: 8px;
+}
+.section1 {
+  position: absolute;
+  left: 118px;
+  right: 5%;
+  top: 230px;
+}
+.text1 {
+  margin-bottom: 10px;
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.text2 {
+  margin-bottom: 25px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #fefcf7;
+}
+.btn {
+}
+
+.image2 img {
+  position: absolute;
+  right: 164px;
+  top: 849px;
+  background: linear-gradient(
+    180deg,
+    rgba(254, 252, 247, 0.0001) 0%,
+    #fefcf7 100%
+  );
+}
+
+.collectionsection {
+  position: absolute;
+  top: 61px;
+  left: -22px;
+}
+.section2 {
+  position: absolute;
+  top: 912px;
+  left: 95px;
+  text-align: center;
+}
+.text3 {
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+.text4 {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+}
+.section3 {
+  position: absolute;
+  top: 912px;
+  left: 383px;
+  text-align: center;
+}
+.text5 {
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+.text6 {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+}
+.section4 {
+  position: absolute;
+  top: 912px;
+  left: 666px;
+  text-align: center;
+}
+.text7 {
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+.text8 {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+}
+.section5 {
+  position: absolute;
+  top: 912px;
+  left: 951px;
+  text-align: center;
+}
+.text9 {
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+.text10 {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.image3 {
+  position: absolute;
+  top: 1388px;
+}
+.text11 {
+  position: relative;
+  margin-top: -459px;
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+}
+.text12 {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+  color: #fefcf7;
+}
+.image4 {
+  position: relative;
+  top: 977px;
+  left: 85px;
+}
+.shape1 {
+  position: relative;
+  top: -309px;
+  left: 134px;
+}
+.text13 {
+  position: relative;
+  left: -24px;
+  top: 45px;
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+
+
+  color: #fefcf7;
+}
+.text14 {
+  position: absolute;
+  margin: 92px -71px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #fefcf7;
+}
+.image5 {
+  position: relative;
+  top: 466px;
+  left: 470px;
+}
+.shape2 {
+  position: relative;
+  top: -309px;
+  left: 134px;
+}
+.text15 {
+  position: relative;
+  left: -53px;
+  top: 48px;
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #fefcf7;
+}
+.text16 {
+  position: absolute;
+  top: 201px;
+  left: -69px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  
+
+  text-align: center;
+
+  color: #fefcf7;
+}
+.image6 {
+  position: absolute;
+  margin: -43px 860px;
+  /* top:-46px;
+  left:857px;  */
+}
+.shape3 {
+  position: relative;
+  top: -309px;
+  left: 113px;
+  width: -11px;
+  height: 30px;
+}
+.text17 {
+  position: relative;
+  left: -2px;
+  top: 21px;
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+
+  color: #fefcf7;
+}
+.text18 {
+  position: relative;
+  left: -101px;
+  top: 65px;
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+
+  color: #fefcf7;
+}
+
+.section6 {
+  position: absolute;
+  margin: 657px 0px;
+}
+.image7 {
+  position: absolute;
+  top: 2314px;
+  left: 85px;
+}
+.image8 {
+  position: absolute;
+  left: 85px;
+}
+.oval1 {
+  position: relative;
+  top: -21px;
+}
+.oval2 {
+  position: relative;
+  top: -56px;
+  left: 389px;
+}
+.oval3 {
+  position: relative;
+  top: -91px;
+  left: 758px;
+}
+.section7 {
+  position: absolute;
+  margin: 796px 82px;
+}
+.one {
+  position: relative;
+  top: 59px;
+}
+.two {
+  position: relative;
+  top: 96px;
+}
+.three {
+  position: relative;
+  top: 130px;
+}
+
+.section8 {
+  margin: 857px 473px;
+}
+.four {
+  position: relative;
+}
+.five {
+  position: relative;
+  top: 36px;
+}
+
+.six {
+  position: relative;
+  top: 62px;
+}
+.section9 {
+  position: absolute;
+  top: 2614px;
+  left: 841px;
+}
+.eight {
+  position: absolute;
+  top: 100px;
+}
+.nine {
+  position: absolute;
+  top: 197px;
+  left: -163px;
+}
+/* .button{
+  position: absolute;
+} */

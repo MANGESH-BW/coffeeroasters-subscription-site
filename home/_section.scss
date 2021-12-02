@@ -1,75 +1,64 @@
-.hero__image {
-  img {
-    position: absolute;
-    left: 57px;
-    right: 5%;
-    top: 106px;
-    border-radius: 8px;
-  }
-}
 .hero {
-  .hero__title {
-    position: absolute;
-    font-family: Fraunces 9pt;
-    text-align: center;
-    line-height: 0px;
-    color:#FEFCF7;
-    font-weight: 1200;
-  }
-    .title1 {
-      margin-top: 156px;
-      margin-left: 76px;
-      font-style: normal;
-      font-family: Fraunces 9pt;
-      font-weight: 1200;
-      font-size: 40px;
-    }
-    .title2 {
-      margin-left: 79px;
-      font-style: normal;
-      text-align: center;
-      line-height: 7px;
-      font-size: 40px;
-    }
-
-.text3{
-    position: absolute;
-    margin-top: 251px;
-    margin-left: 81px;
-    text-align: center;
-    line-height: 22px;
-    color: #FEFCF7;
+  position: relative;
 }
-.btn{
-    position: absolute;
-    margin-top: 389px;
-    margin-left: 103px;
-}
-   
-  }
-.our__collection{
-    .collection{
-        position: absolute;
-        margin-top: 638px;
-        margin-left: 30px;
-    text-align: center;
-    }
+.coffee__image img {
+  width: 100%;
+  border-radius: 8px;
 }
 
-.flexbox__container{
-  @media (min-width:60.25em){
-  display: flex;
+.Coffee_section {
+  position: absolute;
+  top: 132px;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+
+  h3 {
+    margin: 0px;
+    font-family: Fraunces;
+    font-size: 47px;
+    line-height: 40px;
+    text-align: center;
+    color: #fefcf7;
+  }
+  p {
+    padding-top: 20px;
+    height: 101px;
+    color: #fefcf7;
+    font-family: Barlow;
+    text-align: center;
+    font-size: 19px;
+    line-height: 25px;
+    
+  }
+
+  .createplan_button {
+    margin-top: 40px;
+    width: 217px;
+    height: 56px;
+    color: #fefcf7;
+    background-color: #0e8784;
+    border-radius: 10px;
+    font-family: fraunces;
+    font-size: 18px;
+  }
+}
+
+.collection {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.flexbox__container {
+  @media (min-width: 60.25em) {
+    display: flex;
   }
   position: absolute;
-  top:800px;
-  left: 90px;
+  top: 800px;
+  left: 65px;
 }
-.flexbox_item1{
-  h3{
-    // position: absolute;
-    margin-left: 68px;
-    height: 32px;
+.flexbox_item {
+  h3 {
     align-items: center;
   }
-
 }

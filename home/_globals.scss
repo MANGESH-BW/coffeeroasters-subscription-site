@@ -1,13 +1,10 @@
 html{
     font-size: 100%;
+    overflow-x: hidden;
     box-sizing: border-box;
 }
-
-*, *::before, *::after{
-    box-sizing: inherit;
-}
 .container{
-    max-width: 69.375rem;
+    overflow-x: hidden !important;
     margin: 0 auto;
 }
 
@@ -18,6 +15,7 @@ body{
     font-size: 14px;
     font-weight: 300;
     color: $grayishBlue;
+    
     line-height: 1.3;
 }
 

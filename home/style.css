@@ -74,17 +74,13 @@
 
 html {
   font-size: 100%;
+  overflow-x: hidden;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-*, *::before, *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
 .container {
-  max-width: 69.375rem;
+  overflow-x: hidden !important;
   margin: 0 auto;
 }
 
@@ -135,6 +131,8 @@ a, a:visited, a:hover {
 .header {
   position: relative;
   z-index: 1;
+  height: 80px;
+  width: 100%;
 }
 
 .header.open .header__toggle > span:first-child {
@@ -202,7 +200,7 @@ a, a:visited, a:hover {
 }
 
 .header__menu {
-  position: absolute;
+  position: fixed;
   left: 55%;
   top: 126px;
   width: 100%;
@@ -235,66 +233,62 @@ a, a:visited, a:hover {
   letter-spacing: 0.923077px;
 }
 
-.hero__image img {
-  position: absolute;
-  left: 57px;
-  right: 5%;
-  top: 106px;
+.hero {
+  position: relative;
+}
+
+.coffee__image img {
+  width: 100%;
   border-radius: 8px;
 }
 
-.hero .hero__title {
+.Coffee_section {
   position: absolute;
-  font-family: Fraunces 9pt;
+  top: 132px;
+  left: 0px;
+  right: 0px;
   text-align: center;
-  line-height: 0px;
-  color: #FEFCF7;
-  font-weight: 1200;
 }
 
-.hero .title1 {
-  margin-top: 156px;
-  margin-left: 76px;
-  font-style: normal;
-  font-family: Fraunces 9pt;
-  font-weight: 1200;
-  font-size: 40px;
-}
-
-.hero .title2 {
-  margin-left: 79px;
-  font-style: normal;
+.Coffee_section h3 {
+  margin: 0px;
+  font-family: Fraunces;
+  font-size: 47px;
+  line-height: 40px;
   text-align: center;
-  line-height: 7px;
-  font-size: 40px;
+  color: #fefcf7;
 }
 
-.hero .text3 {
-  position: absolute;
-  margin-top: 251px;
-  margin-left: 81px;
+.Coffee_section p {
+  padding-top: 20px;
+  height: 101px;
+  color: #fefcf7;
+  font-family: Barlow;
   text-align: center;
-  line-height: 22px;
-  color: #FEFCF7;
+  font-size: 19px;
+  line-height: 25px;
 }
 
-.hero .btn {
-  position: absolute;
-  margin-top: 389px;
-  margin-left: 103px;
+.Coffee_section .createplan_button {
+  margin-top: 40px;
+  width: 217px;
+  height: 56px;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border-radius: 10px;
+  font-family: fraunces;
+  font-size: 18px;
 }
 
-.our__collection .collection {
-  position: absolute;
-  margin-top: 638px;
-  margin-left: 30px;
+.collection {
   text-align: center;
+  margin-top: 80px;
 }
 
 .flexbox__container {
   position: absolute;
   top: 800px;
-  left: 90px;
+  left: 65px;
 }
 
 @media (min-width: 60.25em) {
@@ -305,9 +299,7 @@ a, a:visited, a:hover {
   }
 }
 
-.flexbox_item1 h3 {
-  margin-left: 68px;
-  height: 32px;
+.flexbox_item h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

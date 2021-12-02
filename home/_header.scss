@@ -1,6 +1,8 @@
 .header {
     position: relative;
     z-index: 1;
+    height: 80px;
+    width: 100%;
    &.open {
       .header__toggle {
         > span:first-child {
@@ -70,7 +72,7 @@
 
     
   &__menu {
-    position: absolute;
+    position: fixed;
     left: 55%;
     top: 126px;
     width: 100%;

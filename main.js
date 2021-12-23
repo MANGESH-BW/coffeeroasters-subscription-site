@@ -28,7 +28,7 @@
 const header = document.querySelector('.header');
 const overlay = document.querySelector('.overlay');
 const hamburger = document.querySelector(".ham");  
-const headermenu = document.querySelector(".menu");  
+const headermenu = document.querySelector(".overlay_menu");  
 
 
 

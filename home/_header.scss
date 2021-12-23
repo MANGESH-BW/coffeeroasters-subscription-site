@@ -10,9 +10,14 @@
     padding-bottom: 17px;
 
     .logo {
-      img {
-        width: 163px;
-        height: 18px;
+      background-image: url(/Images/Mobile_logo.svg);
+      width: 163px;
+      height: 18px;
+
+      @media screen and (min-width: 768px) {
+        background-image: url(/Images/desktop_logo.svg);
+        width: 236px;
+        height: 26px;
       }
     }
     .ham {
@@ -20,6 +25,7 @@
       padding: 0px;
       cursor: pointer;
       float: right;
+      margin-top: -20px;
     }
 
     .bar1,
@@ -32,22 +38,30 @@
       margin: 5px auto;
       background-color: #101010;
       transition: 0.4s;
+
+      @media screen and (min-width: 768px) {
+        display: none;
+      }
+
+      @media screen and (min-width: 1200px) {
+        display: none;
+      }
     }
     .overlay {
       display: none;
     }
 
-    .menu {
+    .overlay_menu {
       width: 100%;
       opacity: 1;
       position: fixed;
       top: 102px;
       width: 375px;
-      height: 577px;
+      bottom: 0px;
       background: linear-gradient(
         180deg,
         #fefcf7 55.94%,
-        rgba(254, 252, 247, 0.504981) 85%
+        rgba(254, 252, 247, 0.504981) 70%
       );
       transform: matrix(1, 0, 0, -1, 0, 0);
       font-size: 12px;
@@ -83,6 +97,30 @@
     }
     .change .bar3 {
       transform: rotate(-45deg) translate(8px, -3px);
+    }
+
+    .header_menu {
+      letter-spacing: 30px;
+      text-align: right;
+      margin-top: -20px;
+      display: none;
+
+      @media screen and (min-width: 768px) {
+
+        display: block;
+      }
+
+      a {
+        text-decoration: none;
+        font-size: 12px;
+        letter-spacing: 0.923077px;
+        color: #83888f;
+        font-weight: 700;
+        @media screen and (min-width: 1200px) {
+          cursor: url(/coffeeroasters-subscription-site/Images/Pointer.png),
+            pointer;
+        }
+      }
     }
   }
 }

@@ -1,0 +1,30 @@
+// @import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@900&display=swap");
+
+// html {
+//   box-sizing: border-box;
+
+//   body {
+//     margin: 0;
+//     padding: 0;
+
+//     background-color: #fefcf7;
+//     font-family: Barlow;
+//   }
+//   .wrapper {
+//     padding: 24px 24px;
+//   }
+//   // Visibility
+//   .hide-for-mobile {
+//     //hide for tablet and mobile
+//     @include breakpoint-down(medium) {
+//       // display: none;
+//     }
+//   }
+
+//   .hide-for-desktop {
+//     //hide for desktop
+//     @include breakpoint-up(large) {
+//       display: none;
+//     }
+//   }
+// }

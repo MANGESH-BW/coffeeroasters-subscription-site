@@ -1,126 +1,109 @@
 .header {
-  position: relative;
-  z-index: 1;
-  height: 80px;
-  width: 100%;
-
-  .nav-bar {
-    background-color: $white;
-    padding-top: 17px;
-    padding-bottom: 17px;
-
-    .logo {
-      background-image: url(/Images/Mobile_logo.svg);
-      width: 163px;
-      height: 18px;
-
-      @media screen and (min-width: 768px) {
-        background-image: url(/Images/desktop_logo.svg);
-        width: 236px;
-        height: 26px;
-      }
-    }
-    .ham {
-      padding-top: 0px;
-      padding: 0px;
-      cursor: pointer;
-      float: right;
-      margin-top: -20px;
-    }
-
-    .bar1,
-    .bar2,
-    .bar3 {
-      display: block;
-      border-radius: 1.5px;
-      width: 20px;
-      height: 3px;
-      margin: 5px auto;
-      background-color: #101010;
-      transition: 0.4s;
-
-      @media screen and (min-width: 768px) {
-        display: none;
-      }
-
-      @media screen and (min-width: 1200px) {
-        display: none;
-      }
-    }
-    .overlay {
-      display: none;
-    }
-
-    .overlay_menu {
-      width: 100%;
-      opacity: 1;
-      position: fixed;
-      top: 102px;
-      width: 375px;
-      bottom: 0px;
-      background: linear-gradient(
-        180deg,
-        #fefcf7 55.94%,
-        rgba(254, 252, 247, 0.504981) 70%
-      );
-      transform: matrix(1, 0, 0, -1, 0, 0);
-      font-size: 12px;
-      align-items: center;
-      transform: translateX(-50%);
-      padding: 26px;
-      color: #333d4b;
-      a {
-        text-decoration: none;
-        display: block;
-        padding: 10px;
-        color: $darkBlue;
-        text-align: center;
-        font-family: Fraunces;
-        font-weight: 900;
-        font-size: 26px;
-        line-height: 42px;
-      }
-    }
-
-    .nav-change {
-      transform: translate(0%);
-    }
-
-    .ham {
-      display: block;
-    }
-    .change .bar1 {
-      transform: rotate(45deg) translate(8px, 3px);
-    }
-    .change .bar2 {
-      opacity: 0;
-    }
-    .change .bar3 {
-      transform: rotate(-45deg) translate(8px, -3px);
-    }
-
-    .header_menu {
-      letter-spacing: 30px;
-      text-align: right;
-      margin-top: -20px;
-      display: none;
-
-      @media screen and (min-width: 768px) {
-
-        display: block;
-      }
-
-      a {
-        text-decoration: none;
-        font-size: 12px;
-        letter-spacing: 0.923077px;
-        color: #83888f;
-        font-weight: 700;
-        @media screen and (min-width: 1200px) {
-          cursor: url(/coffeeroasters-subscription-site/Images/Pointer.png),
-            pointer;
+    position: relative;
+    z-index: 1;
+    height: 80px;
+    width: 100%;
+    .nav-bar {
+        color: white;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        color: #fefcf7;
+        .logo {
+            background-image: url(/Images/Mobile_logo.svg);
+            width: 163px;
+            height: 18px;
+            @media screen and (min-width: 768px) {
+                background-image: url(/Images/desktop_logo.svg);
+                width: 236px;
+                height: 26px;
+            }
         }
-      }
+        .ham {
+            padding-top: 0px;
+            padding: 0px;
+            cursor: pointer;
+            float: right;
+            margin-top: -20px;
+        }
+        .bar1,
+        .bar2,
+        .bar3 {
+            display: block;
+            border-radius: 1.5px;
+            width: 20px;
+            height: 3px;
+            margin: 5px auto;
+            background-color: #101010;
+            transition: 0.4s;
+            @media screen and (min-width: 768px) {
+                display: none;
+            }
+            @media screen and (min-width: 1200px) {
+                display: none;
+            }
+        }
+        .overlay {
+            display: none;
+        }
+        .overlay_menu {
+            width: 100%;
+            opacity: 1;
+            position: fixed;
+            top: 102px;
+            width: 375px;
+            bottom: 0px;
+            background: linear-gradient( 180deg, #fefcf7 55.94%, rgba(254, 252, 247, 0.504981) 70%);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+            font-size: 12px;
+            align-items: center;
+            transform: translateX(-50%);
+            padding: 26px;
+            color: #333d4b;
+            a {
+                text-decoration: none;
+                display: block;
+                padding: 10px;
+                color: $darkBlue;
+                text-align: center;
+                font-family: Fraunces;
+                font-weight: 900;
+                font-size: 26px;
+                line-height: 42px;
+            }
+        }
+        .nav-change {
+            transform: translate(0%);
+        }
+        .ham {
+            display: block;
+        }
+        .change .bar1 {
+            transform: rotate(45deg) translate(8px, 3px);
+        }
+        .change .bar2 {
+            opacity: 0;
+        }
+        .change .bar3 {
+            transform: rotate(-45deg) translate(8px, -3px);
+        }
+        .header_menu {
+            letter-spacing: 30px;
+            text-align: right;
+            margin-top: -20px;
+            display: none;
+            @media screen and (min-width: 768px) {
+                display: block;
+            }
+            a {
+                text-decoration: none;
+                font-size: 12px;
+                letter-spacing: 0.923077px;
+                color: #83888f;
+                font-weight: 700;
+                @media screen and (min-width: 1200px) {
+                    cursor: url(/coffeeroasters-subscription-site/Images/Pointer.png), pointer;
+                }
+            }
+        }
     }
-  }
 }

@@ -1,0 +1,321 @@
+        .wrapper {
+            padding: 24px 24px;
+        }
+        
+        .about-us {
+            background-image: url(/Images/About_coffee_Mobile.jpg);
+            background-repeat: no-repeat;
+            height: 400px;
+            background-size: contain;
+            @media screen and (min-width: 768px) {
+                background-image: url(/Images/tablet-coffeeimg.jpg);
+                background-size: contain;
+            }
+            @media screen and (min-width: 1200px) {
+                background-image: url(/Images/desktop-coffeeimg.jpg);
+                width: 1280px;
+                height: 450px;
+            }
+            .about-us-banner {
+                padding: 86px 15px;
+                @media screen and (min-width: 768px) {
+                    padding: 118px 58px;
+                }
+                h3 {
+                    font-size: 28px;
+                    color: #fefcf7;
+                    text-align: center;
+                    @media screen and (min-width: 768px) {
+                        text-align: start;
+                    }
+                }
+                p {
+                    color: #fefcf7;
+                    font-family: Barlow;
+                    font-size: 15px;
+                    line-height: 25px;
+                    text-align: center;
+                    opacity: 0.6;
+                    width: 279px;
+                    height: 150px;
+                    @media screen and (min-width: 768px) {
+                        width: 398px;
+                        text-align: start;
+                    }
+                }
+            }
+        }
+        
+        .coffee-men {
+            display: flex;
+            flex-direction: column;
+            margin-top: 120px;
+            @media screen and (min-width: 768px) {
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+            }
+            @media screen and (min-width: 1200px) {
+                justify-content: space-evenly;
+            }
+            .coffee {
+                img {
+                    // margin-top: 120px;
+                    height: 400px;
+                    width: 100%;
+                    @media screen and (min-width: 768px) {
+                        height: 421px;
+                        width: 306px;
+                    }
+                    @media screen and (min-width: 768px) {
+                        height: 400px;
+                        width: 306px;
+                    }
+                }
+            }
+            .commitement {
+                @media screen and (min-width: 768px) {
+                    margin-top: 10px;
+                }
+                h3 {
+                    width: 327px;
+                    font-size: 32px;
+                    font-family: Fraunces;
+                    text-align: center;
+                    color: #333d4b;
+                    @media screen and (min-width: 768px) {
+                        text-align: start;
+                        font-size: 32px;
+                    }
+                }
+                p {
+                    line-height: 25px;
+                    text-align: center;
+                    font-size: 15px;
+                    color: #333d4b;
+                    mix-blend-mode: normal;
+                    opacity: 0.8;
+                    @media screen and (min-width: 768px) {
+                        display: flex;
+                        text-align: start;
+                        line-height: 25px;
+                        width: 339px;
+                    }
+                    @media screen and (min-width: 1200px) {
+                        width: 440px;
+                    }
+                }
+            }
+        }
+        
+        .compromising-quality {
+            margin-top: 100px;
+            .coffee-img {
+                background-image: url(/Images/coffeeee-img.png);
+                width: 279px;
+                background-size: contain;
+                height: 156px;
+                position: relative;
+                margin-bottom: -100px;
+                left: 16px;
+                border-radius: 8px;
+                @media screen and (min-width: 768px) {
+                    background-image: url(/Images/tablet-coffee-img.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 573px;
+                    height: 320px;
+                    margin-left: 40px;
+                }
+                @media screen and (min-width: 1200px) {
+                    background-image: url(/Images/desktop-coffee-img.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 445px;
+                    height: 474px;
+                    margin-left: 797px;
+                    margin-top: -85px;
+                    position: absolute;
+                }
+            }
+            .compromising-quality-backimg {
+                background-color: #2c343e;
+                height: 509px;
+                border-radius: 10px;
+                margin-bottom: 181px;
+                @media screen and (min-width: 768px) {
+                    background-color: #2c343e;
+                    width: 688px;
+                    height: 488px;
+                }
+                @media screen and (min-width: 1200px) {
+                    background-color: #2c343e;
+                    width: 1280px;
+                    height: 474px;
+                }
+                .quality-part {
+                    position: relative;
+                    top: 140px;
+                    @media screen and (min-width: 768px) {}
+                    // @media screen and (min-width: 1200px) {
+                    //     padding: 100px 85px;
+                    // }
+                    h3 {
+                        font-family: Fraunces;
+                        font-size: 32px;
+                        text-align: center;
+                        color: #fefcf7;
+                        line-height: 28px;
+                        @media screen and (min-width: 768px) {
+                            text-align: center;
+                        }
+                        @media screen and (min-width: 1200px) {
+                            text-align: start;
+                            font-size: 40px;
+                            margin-left: 85px;
+                        }
+                    }
+                    p {
+                        font-size: 15px;
+                        line-height: 25px;
+                        text-align: center;
+                        color: #fefcf7;
+                        opacity: 0.7;
+                        padding: 22px;
+                        @media screen and (min-width: 768px) {
+                            width: 540px;
+                            height: 125px;
+                            margin-left: 60px;
+                            font-size: 16px;
+                        }
+                        @media screen and (min-width: 1200px) {
+                            text-align: start;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .countries {
+            @media screen and (min-width: 1200px) {
+                padding: 70px
+            }
+            h3 {
+                font-family: Fraunces 9pt;
+                font-size: 24px;
+                text-align: center;
+                color: #83888f;
+                @media screen and (min-width: 768px) {
+                    text-align: start;
+                }
+            }
+            .flexbox-group {
+                @media screen and (min-width: 768px) {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                }
+                @media screen and (min-width: 1200px) {
+                    display: flex;
+                    flex-direction: row;
+                }
+                .flebox-item-countries {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 72px;
+                    @media screen and (min-width: 768px) {
+                        display: flex;
+                        align-items: flex-start;
+                    }
+                    img {
+                        @media screen and (min-width: 768px) {
+                            text-align: start;
+                        }
+                    }
+                    h3 {
+                        font-family: Fraunces;
+                        font-size: 28px;
+                        color: #333d4b;
+                    }
+                    ul {
+                        list-style-type: none;
+                        text-align: center;
+                        color: #333d4b;
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin-right: 40px;
+                        @media screen and (min-width: 768px) {
+                            text-align: start;
+                            padding: 0px;
+                        }
+                        li {}
+                    }
+                }
+            }
+        }
+        
+        .footer-section {
+            margin-top: 120px;
+            background-image: url(/Images/Mask.svg);
+            height: 346px;
+            @media screen and (min-width: 1200px) {
+                background-image: url(/Images/desktop_footer.png);
+                // width: 1280px;
+                height: 120px;
+                display: flex;
+                flex-direction: row;
+            }
+            .footer-contain {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                @media screen and (min-width: 1200px) {
+                    display: inline-block;
+                    margin-left: 85px;
+                    margin-top: 0px;
+                }
+                img {
+                    margin-bottom: 49px;
+                    margin-top: 54px;
+                }
+                a {
+                    text-decoration: none;
+                    text-align: center;
+                    display: block;
+                    margin-bottom: 24px;
+                    line-height: 15px;
+                    font-weight: bold;
+                    color: #83888f;
+                    font-size: 12px;
+                    @media screen and (min-width: 768px) {
+                        display: contents;
+                        letter-spacing: 0.923077px;
+                    }
+                    @media screen and (min-width: 1200px) {
+                        display: inline-block;
+                        padding: 10px;
+                        margin-top: 52px;
+                        word-spacing: 0.923077px;
+                        cursor: url(/coffeeroasters-subscription-site/Images/Pointer.png), pointer;
+                    }
+                }
+                .icon {
+                    display: inline-block;
+                    margin-top: 0px;
+                    @media screen and (min-width: 1200px) {
+                        margin-top: 0px;
+                        padding-left: 300px;
+                    }
+                    img {
+                        margin-right: 24px;
+                    }
+                    .last-image {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
